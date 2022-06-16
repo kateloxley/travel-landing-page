@@ -1,0 +1,93 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+.steps {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0 0 0;
+
+@media (max-width: 390px) {
+  margin-top: 1.4rem;
+}
+
+&__layout-container {
+  @include layout-container;
+  flex-direction: column;
+  align-items: center;
+
+@media (max-width: 390px) {
+  margin: 0 1rem 0 1rem;
+}
+}
+
+&__title {
+  @include peach_title;
+  margin: 0;
+}
+
+&__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2.5rem;
+
+@media (max-width: 390px) {
+  margin-top: 1.25rem;
+  max-width: 22rem;
+}
+}
+
+&__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 26.4%;
+  text-align: center;
+}
+
+&__icon:nth-child(1) {
+
+  @media (max-width: 390px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 28%;
+  text-align: left;
+}
+}
+
+&__icon:nth-child(3) {
+
+@media (max-width: 390px) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 28%;
+  text-align: right;
+}
+}
+
+&__icon img {
+
+@media (max-width: 390px) {
+  max-width: 4.3rem;
+  width: 100%;
+}
+}
+
+&__text {
+  @include aleo_font(400);
+  color: #0D606F;
+  font-size: 1.25rem;
+  margin-top: 2.5rem;
+
+@media (max-width: 390px) {
+  font-size: 0.6rem;
+  margin-top: 1.6rem;
+}
+}
+
+}
+
