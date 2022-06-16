@@ -1,0 +1,352 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+.header{display:flex;flex-direction:column;background:url(assets/093c42c061e19557a460.jpg) no-repeat;background-size:cover;height:47.81rem;align-items:center;overflow:hidden}@media(max-width: 390px){.header{max-height:15.6rem;max-width:24.3rem;overflow:hidden;position:relative}}.header__menu{background:rgba(242,120,92,.7);box-shadow:0px 4px 4px rgba(13,96,111,.5);display:flex;justify-content:center;align-items:center;height:5.6rem;width:100%}@media(max-width: 390px){.header__menu{position:absolute;top:0;right:-15rem;flex-direction:column;max-width:10.3rem;width:100%;max-height:15.6rem;height:100%;background:#f2785c;box-shadow:0px 4px 3px rgba(13,96,111,.25);border-radius:10px;transition:all .5s;z-index:10}}@media(max-width: 390px){.header__menu.active{top:0;right:0;z-index:10;transition:all .3s}}.header__menu-content{display:flex;justify-content:space-between;align-items:center;max-width:74rem;width:100%}@media(max-width: 390px){.header__menu-content{flex-direction:column;text-align:right;padding-right:1rem}}.header__logo{display:flex;align-items:center}@media(max-width: 390px){.header__logo{display:none}}.header__img{background:url(assets/3529c7cc0e33afeac51a.svg) no-repeat;height:1.9rem;width:1.8rem}.header__img.mobile{display:none}@media(max-width: 390px){.header__img.mobile{display:block;position:absolute;top:3rem;left:1rem}}.header__logo-text{font-family:"Magra";font-weight:600;font-size:2rem;color:#fff}@media(max-width: 390px){.header__logo-text{display:none}}.header__nav{max-width:33rem;width:100%}@media(max-width: 390px){.header__nav{height:11rem;display:flex;justify-content:flex-end}}.header__links{display:flex;justify-content:space-between;margin:0;padding:0}@media(max-width: 390px){.header__links{flex-direction:column}}.header__links li{list-style-type:none}.header__link{font-family:"Red Hat Text";font-size:1rem;color:#fff;text-decoration:none;transition:all .2s}.header__link.mobile{display:none}@media(max-width: 390px){.header__link.mobile{display:block}}.header__link:hover,.header__link:active{color:#0d606f;transition:all .2s}.header__login{display:inline-flex;justify-content:center;align-items:center;background:#0d606f;box-shadow:0px 0px 3px rgba(13,96,111,.08),0px 2px 3px rgba(13,96,111,.16);border-radius:10px;color:#fff;font-family:"Red Hat Text";border:none;cursor:pointer;max-width:6.4rem;max-height:2.5rem;font-size:1rem;padding:.6rem 1.8rem .6rem 1.8rem;transition:all .2s}@media(max-width: 390px){.header__login{display:none}}.header__login:hover,.header__login:active{background:#187d8f;transition:all .2s}.header__close{display:none;cursor:pointer}@media(max-width: 390px){.header__close{display:block;position:absolute;left:1rem;top:1rem;width:1rem;height:1rem;opacity:1}}@media(max-width: 390px){.header__close:hover{opacity:.3}}@media(max-width: 390px){.header__close:before,.header__close:after{position:absolute;left:.5rem;content:"";height:1rem;width:1px;background-color:#fff}}@media(max-width: 390px){.header__close:before{transform:rotate(45deg)}}@media(max-width: 390px){.header__close:after{transform:rotate(-45deg)}}@media(max-width: 390px){.header__back{top:0;right:0px;left:0px;bottom:0;background-color:rgba(255,255,255,.7);opacity:0;transition:ease-in .3s;z-index:1}}@media(max-width: 390px){.header__back.active{position:fixed;opacity:.6;width:100%;height:100%;transition:ease-in .3s}}.header__burger-container{display:none}@media(max-width: 390px){.header__burger-container{display:block;top:3rem;right:1.5rem;width:1.6rem;height:1rem;position:absolute;cursor:pointer}}@media(max-width: 390px){.header__burger{z-index:5;width:1.6rem;height:1rem;position:absolute;top:0;right:0;left:0;margin:0 auto;transition:all .3s ease 0s}}@media(max-width: 390px){.header__burger span{height:2px;display:block;position:absolute;width:100%;left:0;background-color:#fff;transition:all .3s ease 0s}}@media(max-width: 390px){.header__burger.active{transform:rotate(-90deg);transition:all .3s ease 0s}}@media(max-width: 390px){.header__burger span.active{background-color:#f1cdb3}}@media(max-width: 390px){.header__burger span:nth-child(1){top:.3rem}}@media(max-width: 390px){.header__burger span:nth-child(3){top:.6rem}}.steps{display:flex;justify-content:center;margin:5rem 0 0 0}@media(max-width: 390px){.steps{margin-top:1.4rem}}.steps__layout-container{display:flex;max-width:75rem;width:100%;flex-direction:column;align-items:center}@media(max-width: 390px){.steps__layout-container{margin:0 1rem 0 1rem}}.steps__title{font-family:"Red Hat Text";font-style:normal;font-weight:500;font-size:2.5rem;color:#f2785c;margin:0}@media(max-width: 390px){.steps__title{font-size:.8rem}}.steps__icons{display:flex;flex-direction:row;justify-content:space-between;align-items:center;width:100%;margin-top:2.5rem}@media(max-width: 390px){.steps__icons{margin-top:1.25rem;max-width:22rem}}.steps__icon{display:flex;flex-direction:column;align-items:center;width:26.4%;text-align:center}@media(max-width: 390px){.steps__icon:nth-child(1){display:flex;flex-direction:column;align-items:flex-start;max-width:28%;text-align:left}}@media(max-width: 390px){.steps__icon:nth-child(3){display:flex;flex-direction:column;align-items:flex-end;max-width:28%;text-align:right}}@media(max-width: 390px){.steps__icon img{max-width:4.3rem;width:100%}}.steps__text{font-family:"Aleo",serif;font-weight:400;font-style:normal;color:#0d606f;font-size:1.25rem;margin-top:2.5rem}@media(max-width: 390px){.steps__text{font-size:.6rem;margin-top:1.6rem}}.footer{display:flex;flex-direction:column;justify-content:center;align-items:center}.footer__layout-container{display:flex;max-width:75rem;width:100%;align-items:center;justify-content:flex-end}.footer__content{display:flex;max-width:45.5rem;width:100%;justify-content:space-between;align-items:center}@media(max-width: 390px){.footer__content{justify-content:center}}.footer__rights{font-family:"Red Hat Text";font-size:1rem;color:#fff}@media(max-width: 390px){.footer__rights{display:none}}.footer__social{display:flex;padding:0}.footer__social li{list-style-type:none}.footer__social li:nth-child(2){margin:0 1.25rem 0 1.25rem}.preview{display:flex;max-width:75rem;width:100%;justify-content:flex-start}.preview__title{font-family:"Aleo",serif;font-weight:700;font-style:normal;margin:2rem 0 0 0;font-size:5rem;color:#fff}@media(max-width: 390px){.preview__title{display:none}}.preview__subtitle{font-family:"Aleo",serif;font-weight:700;font-style:italic;font-size:1.25rem;color:#fff;margin:2.88rem 0 2.88rem 0}@media(max-width: 390px){.preview__subtitle{display:none}}.preview__layout-container{display:flex;justify-content:center;flex-direction:column;max-width:55rem;width:100%}@media(max-width: 390px){.preview__layout-container{max-width:22.5rem;margin:0 1rem 0 1rem}}.preview__input{position:relative;max-width:55rem;max-height:6rem}@media(max-width: 390px){.preview__input{max-width:22.5rem;max-height:3rem;margin-top:8.88rem}}.preview__placeholder{width:100%;height:100%;padding:2rem 2.5rem 2rem 2.5rem;background:rgba(255,255,255,.7);border-radius:1rem;border:none;outline:none;font-size:1.5rem}@media(max-width: 390px){.preview__placeholder{padding:1rem 1rem 1rem 1rem}}.preview__placeholder::placeholder{font-family:"Aleo",serif;font-weight:400;font-style:italic;color:#f2785c}@media(max-width: 390px){.preview__placeholder::placeholder{font-size:.8rem}}.preview__planning{display:inline-flex;justify-content:center;align-items:center;background:#0d606f;box-shadow:0px 0px 3px rgba(13,96,111,.08),0px 2px 3px rgba(13,96,111,.16);border-radius:10px;color:#fff;font-family:"Red Hat Text";border:none;cursor:pointer;position:absolute;top:1.1rem;right:.8rem;max-width:14rem;max-height:3.6rem;font-size:1.5rem;padding:.8rem 2rem .8rem 2rem;z-index:3}@media(max-width: 390px){.preview__planning{top:.6rem;right:.6rem;font-size:.6rem;padding:.4rem .5rem .4rem .5rem;max-width:5.7rem;width:100%;max-height:1.8rem;height:100%}}.preview__planning:hover,.preview__planning:active{background:#187d8f;transition:all .2s}.destinations{display:flex;flex-direction:column;justify-content:center;align-items:center;margin:3rem 0 0 0}@media(max-width: 390px){.destinations{margin-top:1.25rem;margin:0rem 1rem 0 0rem}}.destinations__title{font-family:"Red Hat Text";font-style:normal;font-weight:500;font-size:2.5rem;color:#f2785c}@media(max-width: 390px){.destinations__title{font-size:.8rem}}@media(max-width: 390px){.destinations__title{margin:1rem}}.destinations__slider{display:flex}@media(max-width: 390px){.destinations__slider{max-width:22.5rem;width:100%;max-height:13rem;height:100%;border-radius:16px}}.destinations__item{max-width:800px;margin:0 2rem 0 2rem}@media(max-width: 390px){.destinations__item{max-width:22.5rem;width:100%;max-height:13rem;height:100%;border-radius:16px;overflow:hidden;margin:0 1rem 0 1rem}}.destinations__img{width:100%}.destinations__more{display:inline-flex;justify-content:center;align-items:center;background:#0d606f;box-shadow:0px 0px 3px rgba(13,96,111,.08),0px 2px 3px rgba(13,96,111,.16);border-radius:10px;color:#fff;font-family:"Red Hat Text";border:none;cursor:pointer;font-size:1.5rem;padding:1rem 2.7rem 1rem 2.7rem;margin-top:5.6rem}@media(max-width: 390px){.destinations__more{padding:.5rem .7rem .5rem .7rem;margin-top:1rem;font-size:.7rem}}.destinations__more:hover,.destinations__more:active{background:#187d8f;transition:all .2s}.destinations__city{position:absolute;bottom:1rem;left:1rem;color:#fff;font-family:"Red Hat Text";font-size:2rem;text-transform:uppercase;margin:0}@media(max-width: 390px){.destinations__city{font-size:1.25rem;top:.5rem;left:1rem}}.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction{bottom:80px}@media(max-width: 390px){.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction{bottom:45px}}.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 10px}@media(max-width: 390px){.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 5px}}.swiper-button-next,.swiper-button-prev{display:none}@media(max-width: 390px){.swiper-button-next,.swiper-button-prev{display:block}}.swiper-button-next{right:0px;width:20px}.swiper-button-prev{left:25px}.swiper-button-next:after,.swiper-button-prev:after{font-size:1.5rem;font-weight:600}:root{--swiper-theme-color: #F2785C}.swiper-pagination-bullet{background-color:#f2785c;width:1.5rem;height:1.5rem}@media(max-width: 390px){.swiper-pagination-bullet{width:.5rem;height:.5rem}}.stories{display:flex;flex-direction:column;justify-content:center;align-items:center;margin:3rem 0 0 0}@media(max-width: 390px){.stories{margin-top:1rem}}.stories__bg-img{background:url(assets/1f96fffbb63223e05569.jpg) no-repeat;background-size:cover;width:100%}.stories__bg-color{background-color:rgba(255,255,255,.7);width:100%}.stories__title{font-family:"Red Hat Text";font-style:normal;font-weight:500;font-size:2.5rem;color:#f2785c;margin-bottom:3rem}@media(max-width: 390px){.stories__title{font-size:.8rem}}@media(max-width: 390px){.stories__title{margin-bottom:1rem}}.stories__content{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2.5rem 0 2.5rem 0}@media(max-width: 390px){.stories__content{padding:.6rem 1rem .6rem 1rem}}.stories__layout-container{display:flex;max-width:75rem;width:100%;flex-direction:column}.stories__story{display:flex;margin-bottom:1.8rem;width:100%}@media(max-width: 390px){.stories__story{margin-bottom:1rem}}@media(max-width: 390px){.stories__story:last-child{margin:0}}.stories__picture{width:25rem;height:15.6rem;margin-right:2.4rem;overflow:hidden;border-radius:1rem;filter:drop-shadow(0px 4px 4px #0D606F)}@media(max-width: 390px){.stories__picture{display:flex;justify-content:center;margin-right:.6rem;max-width:9.6rem;width:100%;max-height:8rem}}.stories__img{filter:drop-shadow(0px 4px 4px #0D606F);border-radius:1rem}.stories__storyname{font-family:"Aleo",serif;font-weight:400;font-style:normal;color:#0d606f;font-size:2.1rem;margin:0}@media(max-width: 390px){.stories__storyname{font-size:.7rem}}.stories__text{font-family:"Aleo",serif;font-weight:400;font-style:normal;color:#0d606f;font-size:1.25rem;margin-top:1.5rem}@media(max-width: 390px){.stories__text{font-size:.5rem;margin-top:.6rem}}.stories__read-more{font-family:"Aleo",serif;font-weight:700;font-style:normal;color:#0d606f;font-size:1.25rem}@media(max-width: 390px){.stories__read-more{font-size:.5rem}}.stories__read-more:hover{color:#187d8f}.stories__description{display:flex;flex-direction:column;max-width:47.5rem;width:100%}.stories__more{display:inline-flex;justify-content:center;align-items:center;background:#0d606f;box-shadow:0px 0px 3px rgba(13,96,111,.08),0px 2px 3px rgba(13,96,111,.16);border-radius:10px;color:#fff;font-family:"Red Hat Text";border:none;cursor:pointer;font-size:1.5rem;padding:1rem 2.7rem 1rem 2.7rem;margin-top:1rem}@media(max-width: 390px){.stories__more{padding:.5rem .7rem .5rem .7rem;margin-top:.6rem;font-size:.7rem}}.stories__more:hover,.stories__more:active{background:#187d8f;transition:all .2s}.login-popup.active{visibility:visible;opacity:1;display:flex;justify-content:center;width:100%;height:100%;padding-top:5rem;position:fixed;z-index:30;background:rgba(11,81,94,.336);transition:ease-in .3s}@media(max-width: 390px){.login-popup.active{padding-top:5rem}}.login-popup{visibility:hidden;opacity:0;transition:visibility 0s linear 3s,opacity 300ms}.login-popup__wrapper{width:100%;height:100%;position:absolute;padding:3rem;max-width:28rem;max-height:38rem;border-radius:4rem;background:url(assets/093c42c061e19557a460.jpg) no-repeat center;background-size:cover;box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);font-family:"Red Hat Text";font-style:normal;font-weight:500;font-size:2.5rem;color:#f2785c}@media(max-width: 390px){.login-popup__wrapper{font-size:.8rem}}@media(max-width: 390px){.login-popup__wrapper{padding:1.3rem;max-width:22.5rem;max-height:36rem}}.login-popup__close{display:none;cursor:pointer}@media(max-width: 390px){.login-popup__close{display:block;position:absolute;left:17rem;top:1.5rem;height:4rem;width:4rem;opacity:1}}@media(max-width: 390px){.login-popup__close:hover{opacity:.3}}@media(max-width: 390px){.login-popup__close:before,.login-popup__close:after{position:absolute;left:2rem;top:1rem;content:"";height:2rem;width:.1rem;background-color:#fff}}@media(max-width: 390px){.login-popup__close:before{transform:rotate(45deg)}}@media(max-width: 390px){.login-popup__close:after{transform:rotate(-45deg)}}.login-popup__title{text-transform:uppercase;font-size:2rem;margin-bottom:3rem;display:inline-block;color:#fff}.login-popup__icons{display:flex;justify-content:center;align-content:center;opacity:.8}.login-popup__icon{max-width:3rem}.login-popup__link:nth-child(1){margin-right:3rem}.login-popup__form{min-height:345px;position:relative}.login-popup__label,.login-popup__input,.login-popup__btn{width:100%}.login-popup__label{text-transform:uppercase;color:#fff;font-size:1rem;line-height:2rem}.login-popup__input,.login-popup__btn{border:none;padding:1rem 1.3rem;border-radius:1.5rem;background:rgba(231,218,216,.24);transition:all .2s}.login-popup__btn:hover{background:#187d8f;transition:all .2s}.login-popup__btn:focus{background:#187d8f;box-shadow:0 1px 1px rgba(229,103,23,.075) inset,0 0 8px rgba(229,103,23,.6);transition:all .2s}.login-popup__btn{margin-top:1.5rem;background:#0d606f;text-transform:uppercase;color:#fff;font-size:1rem;cursor:pointer}.login-popup__item{margin-bottom:1rem}.login-popup__divider{height:2px;margin:1.6rem 0 2rem 0;background:rgba(255,255,255,.2)}input[type=text]:focus,input[type=password]:focus{border-color:rgba(255,119,101,.829);box-shadow:0 1px 1px rgba(229,103,23,.075) inset,0 0 8px rgba(229,103,23,.6);outline:0 none;transition:all .2s}*,body{font-size:16px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.noscroll{overflow:hidden;transition:all .3s}*,::after,::before{box-sizing:border-box}
+
+/*# sourceMappingURL=main.f08be9b443284dccd6d8.css.map*/
